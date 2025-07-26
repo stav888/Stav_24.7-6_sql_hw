@@ -3,7 +3,7 @@
 SQLite Topics: AUTOINCREMENT, UNION, ON DELETE CASCADE, TRIGGER, VIEW
 https://github.com/pythonai200425/pages/blob/main/5_sqlite_topics.md
 
-Beginner's Guide to PostgreSQL=
+Beginner's Guide to PostgreSQL
 https://github.com/pythonai200425/pages/blob/main/6_pg_intro.md
 
 HW

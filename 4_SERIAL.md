@@ -1,13 +1,3 @@
-```sql
-CREATE TABLE users (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    name TEXT NOT NULL
-);
-
-INSERT INTO users (name) VALUES ('Alice');  -- id = 1
-INSERT INTO users (name) VALUES ('Bob');    -- id = 2
-```
-
 -- SERIAL
 
 ```sql

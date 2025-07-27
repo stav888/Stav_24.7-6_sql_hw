@@ -1,4 +1,4 @@
--- ON DELETE CASCADE
+-- ON DELETE CASCADE | SQLite
 
 CREATE TABLE directors (
     director_id INTEGER PRIMARY KEY,

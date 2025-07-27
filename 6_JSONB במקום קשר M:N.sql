@@ -31,20 +31,16 @@ INSERT INTO student_courses (student_id, course_id) VALUES
 (2, 1);
 
 
-
--- נמחק את הטבלאות הישנות ונבנה את המבנה החדש
 DROP TABLE IF EXISTS student_courses;
 DROP TABLE IF EXISTS courses;
 DROP TABLE IF EXISTS students;
 
--- נבנה את טבלת ההרשמות עם JSONB
 CREATE TABLE enrollments (
     student_id SERIAL PRIMARY KEY,
     student_name TEXT NOT NULL,
     courses JSONB
 );
 
--- נוסיף את הנתונים כפי שמופיע בדוגמה
 INSERT INTO enrollments (student_name, courses) VALUES
 ('Roni', '{"math": "2024-11-01", "history": "2024-11-15"}'::JSONB),
 ('Alon', '{"math": "2024-11-01"}'::JSONB);

@@ -1,3 +1,5 @@
+-- JSONB במקום קשר M:N | PostgreSQL
+
 CREATE TABLE students (
     id SERIAL PRIMARY KEY,
     name TEXT NOT NULL

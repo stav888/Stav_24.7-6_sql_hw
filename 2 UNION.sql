@@ -1,4 +1,5 @@
--- UNION
+-- UNION | SQLite
+
 CREATE TABLE patients (
     id INTEGER PRIMARY KEY,
     name TEXT

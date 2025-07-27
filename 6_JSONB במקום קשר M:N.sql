@@ -1,4 +1,4 @@
-
+-- JSONB במקום קשר M:N | PostgreSQL
 
 CREATE TABLE enrollments (
     id SERIAL PRIMARY KEY,
